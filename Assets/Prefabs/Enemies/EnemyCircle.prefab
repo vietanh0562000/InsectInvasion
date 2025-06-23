@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5388050866616609308}
   - component: {fileID: 9153719488369441786}
   - component: {fileID: 1952538095546550693}
+  - component: {fileID: 3355052684991124154}
   m_Layer: 0
   m_Name: EnemyCircle
   m_TagString: Block
@@ -172,6 +173,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3355052684991124154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5388050866616609310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5651566b16477f9c844e33282e538b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5388050867387204707
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,8 +213,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 4.02, y: 4.02, z: 4.02}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5388050866616609306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

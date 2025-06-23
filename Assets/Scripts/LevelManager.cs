@@ -19,6 +19,8 @@ public class LevelManager : MonoBehaviour {
     [Header("Level Bar")]
     [SerializeField] Image fillImage;
     [SerializeField] Text levelText;
+    
+    public Transform player;
 
 
     private void Awake() {

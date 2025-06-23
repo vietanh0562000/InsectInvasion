@@ -4012,6 +4012,7 @@ MonoBehaviour:
   coinsEarnedText: {fileID: 1729274533}
   fillImage: {fileID: 429976339}
   levelText: {fileID: 108804674}
+  player: {fileID: 644004393}
 --- !u!1 &911442710
 GameObject:
   m_ObjectHideFlags: 0
@@ -10034,7 +10035,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f9880714855574761a6bf9ca15019055,
+      objectReference: {fileID: 21300000, guid: 88bdd199b092641e98d49120daf704de,
         type: 3}
     - target: {fileID: 551446402608998643, guid: 9694ce60b7c2145b9800b7929b6affbc,
         type: 3}
@@ -10485,7 +10486,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: dd1b3017a52d2407aaa83d81ab82176d,
+      objectReference: {fileID: 21300000, guid: f9880714855574761a6bf9ca15019055,
         type: 3}
     - target: {fileID: 551446402608998643, guid: 9694ce60b7c2145b9800b7929b6affbc,
         type: 3}
