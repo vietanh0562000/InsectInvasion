@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5388050866616609306}
   - component: {fileID: 5388050866616609307}
   - component: {fileID: 5388050866616609308}
-  - component: {fileID: 5388050866616609305}
   - component: {fileID: 9153719488369441786}
+  - component: {fileID: 1952538095546550693}
   m_Layer: 0
   m_Name: EnemyCircle
   m_TagString: Block
@@ -27,13 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5388050866616609310}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.97, y: 0.91, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5388050867387204704}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5388050866616609307
 SpriteRenderer:
@@ -46,10 +47,12 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -74,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aba604cd80464334a85a8f22b0e41647, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d86337fde53040a1bad7bc900893f4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,12 +105,47 @@ MonoBehaviour:
   speed: 0.21
   spr: {fileID: 5388050866616609307}
   sprites:
-  - {fileID: 21300000, guid: 99119ab46a39e0d43a706f1886684bdc, type: 3}
-  - {fileID: 21300000, guid: aba604cd80464334a85a8f22b0e41647, type: 3}
-  - {fileID: 21300000, guid: 7ccd84ae406502d44a5d1b5526b18853, type: 3}
-  - {fileID: 21300000, guid: 09ea8b97197c0244da41363cf6a655a8, type: 3}
+  - {fileID: 21300000, guid: 8d86337fde53040a1bad7bc900893f4e, type: 3}
+  - {fileID: 21300000, guid: e4cee2a8718d341e1b483e855785de6b, type: 3}
+  - {fileID: 21300000, guid: 006caf593bd014b43b5c7f209c7a570a, type: 3}
+  - {fileID: 21300000, guid: c124783faa3494c1e93d038c17aed3c3, type: 3}
   hpText: {fileID: 5388050867387204706}
---- !u!50 &5388050866616609305
+--- !u!58 &9153719488369441786
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5388050866616609310}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.1354123}
+  serializedVersion: 2
+  m_Radius: 2.66
+--- !u!50 &1952538095546550693
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -124,26 +162,16 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &9153719488369441786
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5388050866616609310}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.45
 --- !u!1 &5388050867387204707
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,12 +197,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5388050867387204707}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5388050866616609306}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &5388050867387204705
 MeshRenderer:
@@ -187,10 +216,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -215,6 +246,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!102 &5388050867387204706
 TextMesh:
   serializedVersion: 3
