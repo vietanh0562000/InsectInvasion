@@ -4447,6 +4447,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8402936323446090611, guid: 174cfab342cce436eb4498d9b0a23790,
+        type: 3}
+      propertyPath: m_Text
+      value: LV-426
+      objectReference: {fileID: 0}
     - target: {fileID: 8407631592912542314, guid: 174cfab342cce436eb4498d9b0a23790,
         type: 3}
       propertyPath: m_Text
@@ -6363,6 +6368,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8402936323446090611, guid: 174cfab342cce436eb4498d9b0a23790,
+        type: 3}
+      propertyPath: m_Text
+      value: Terra (Sol III)
+      objectReference: {fileID: 0}
     - target: {fileID: 8407631592912542314, guid: 174cfab342cce436eb4498d9b0a23790,
         type: 3}
       propertyPath: m_Text
@@ -6673,6 +6683,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402936323446090611, guid: 174cfab342cce436eb4498d9b0a23790,
+        type: 3}
+      propertyPath: m_Text
+      value: Proxima b
       objectReference: {fileID: 0}
     - target: {fileID: 8407631592912542314, guid: 174cfab342cce436eb4498d9b0a23790,
         type: 3}
@@ -8570,6 +8585,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8402936323446090611, guid: 174cfab342cce436eb4498d9b0a23790,
+        type: 3}
+      propertyPath: m_Text
+      value: Reach
+      objectReference: {fileID: 0}
     - target: {fileID: 8407631592912542314, guid: 174cfab342cce436eb4498d9b0a23790,
         type: 3}
       propertyPath: m_Text
@@ -9296,6 +9316,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402936323446090611, guid: 174cfab342cce436eb4498d9b0a23790,
+        type: 3}
+      propertyPath: m_Text
+      value: Planet P
       objectReference: {fileID: 0}
     - target: {fileID: 8407631592912542314, guid: 174cfab342cce436eb4498d9b0a23790,
         type: 3}
@@ -10324,6 +10349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402936323446090611, guid: 174cfab342cce436eb4498d9b0a23790,
+        type: 3}
+      propertyPath: m_Text
+      value: Tatooine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
